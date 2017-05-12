@@ -9,7 +9,7 @@ What are we using?
 * [Tweepy](https://github.com/tweepy/tweepy) 
 
 What do we need to do?
-1. Open a streaming and record the tweets about a certain topic, username, location, etc. [1_streaming.py](sentiment_analysis_chileanTweets/1_streaming.py)
+1. Open a streaming and record the tweets about a certain topic, username, location, etc. [1_streaming.py](https://github.com/17-56cl/sentiment_analysis_chileanTweets/blob/master/1_streaming.py)
 2. Do the sentiment analysis on them, i.e. classify them on negative, positive or neutral. For english text, you have multiple packages to do so, for example [NLKT](http://www.nltk.org/howto/sentiment.html). But for spanish, we havent been able to find any good pre-built analyzer. So we will have to build it ourselves! 
 
  * From the tweets we have been streaming, we hace to select a training sample, let's say 5,000 tweets.
